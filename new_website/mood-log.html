@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How are we feeling today?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body class="safe">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"  target="_blank">Home</a></li>
+                <li><a href="about.html"  target="_blank">About us</a></li>
+                <li><a href="mood-log.html"  target="_blank">Mood log</a></li>
+                <li><a href="resources.html"  target="_blank">Resources</a></li>
+                <li><a href="feedback.html"  target="_blank">Feedback</a></li>
+            </ul>
+        </nav>
+        <h2>This is a safe space!</h2>
+    </header>
+
+    <div class="container">
+        <input type="radio" class="mood-input" id="mood-1" name="mood" />
+        <label class="mood-log mood-1" for="mood-1">
+            <div class="mood-message">Angry</div>
+            <img src="angry.svg" alt="Angry Image" class="mood-image1" />
+            <div class="overlay">Take a deep breath.</div>
+        </label>
+
+        <input type="radio" class="mood-input" id="mood-2" name="mood" />
+        <label class="mood-log mood-2" for="mood-2">
+            <div class="mood-message">Happy</div>
+            <img src="happy.svg" alt="Happy Image" class="mood-image2" />
+            <div class="overlay">Happy to hear that!</div>
+        </label>
+
+        <input type="radio" class="mood-input" id="mood-3" name="mood" />
+        <label class="mood-log mood-3" for="mood-3">
+            <div class="mood-message">Neutral mood</div>
+            <img src="neutral.svg" alt="Neutral" class="mood-image3" />
+            <div class="overlay">Better days are coming</div>
+        </label>
+
+        <input type="radio" class="mood-input" id="mood-4" name="mood"/>
+        <label class="mood-log mood-4" for="mood-4">
+            <div class="mood-message">Excited</div>
+            <img src="excited.svg" alt="excited" class="mood-image4" />
+            <div class="overlay">Share the news!!</div>
+        </label>
+
+        <input type="radio" class="mood-input" id="mood-5" name="mood" />
+        <label class="mood-log mood-5" for="mood-5">
+            <div class="mood-message">Sad</div>
+            <img src="sad.svg" alt="sad" class="mood-image5" />
+            <div class="overlay">This too shall pass.</div>
+        </label>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    
+    <footer>
+        <h4>If you need someone to talk, contact us.</h4>
+        <div class="contact-links">
+            <a href="https://www.instagram.com/" target="_blank"> <i class='bx bxl-instagram'></i></a>
+            <a href="mailto:info@example.com"><i class='bx bxs-envelope'></i></a>
+            <a href="tel:+123456789"><i class='bx bxs-phone'></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
